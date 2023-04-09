@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "packageManager": "pnpm@8.1.1",
   "description": "FormKit plugin for Hybridly.",
   "author": {
