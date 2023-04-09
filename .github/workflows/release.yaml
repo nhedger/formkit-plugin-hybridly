@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  release-please:
+    name: Release Please
+    runs-on: ubuntu-latest
+    steps:
+      - id: release
+        name: Run release-please
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: '@hedger/formkit-plugin-hybridly'
+          prerelease: true
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up NodeJS
+        uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://registry.npmjs.org'
+      - name: Set up PNPM
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          run_install: true
+      - name: Build library
+        run: pnpm run build
+      - name: Publish
+        if: ${{ steps.release.outputs.release_created }}
+        run: pnpm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
