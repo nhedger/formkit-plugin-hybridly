@@ -1,7 +1,7 @@
 import { registerHook } from "hybridly/vue";
 import { type FormKitNode, FormKitPlugin } from "@formkit/core";
 
-export const hybridly: FormKitPlugin = (node: FormKitNode) => {
+const Hybridly: FormKitPlugin = (node: FormKitNode) => {
 	// If the node is not a root node and a form, we don't attach to it.
 	if (node.parent !== null || node.props.type !== "form") {
 		return;
@@ -36,3 +36,5 @@ export const hybridly: FormKitPlugin = (node: FormKitNode) => {
 		);
 	});
 };
+
+export default Hybridly;
