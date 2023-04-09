@@ -24,37 +24,15 @@ pnpm add @hedger/formkit-plugin-hybridly
 
 ### Registering the plugin
 
-The plugin may be registered globally or locally.
-
-#### Globally
-
-When registered globally, the plugin will attach itself to all root FormKit
-nodes that have a type of `form`.
+When registered, the plugin will attach itself to all root FormKit nodes that
+have a type of `form`.
 
 ```ts
 import Hybridly from '@hedger/formkit-plugin-hybridly';
 
 export default {
-    plugins: [Hybridly({ globally: true })],
+    plugins: [Hybridly],
 };
-```
-
-### Locally
-
-When registered locally, the plugin will only attach itself only to the related
-node.
-
-```html
-<script setup>
-    import Hybridly from '@hedger/formkit-plugin-hybridly';
-</script>
-
-<template>
-    <FormKit type="form" :plugins="[Hybridly]">
-        <FormKitField type="email" name="email" />
-        <FormKitField type="password" name="password" />
-    </FormKit>
-</template>
 ```
 
 ## Multiple forms on the same page
@@ -66,7 +44,6 @@ on the `useForm` call.
 
 ```html
 <script setup>
-
     const loginForm = useForm({
         method: 'POST',
         url: '/login',
@@ -74,18 +51,19 @@ on the `useForm` call.
         fields: {
             email: '',
             password: '',
-        }
-    })
-
+        },
+    });
 </script>
 
 <template>
-
-    <FormKit type="form" errorBag="login" v-model="loginForm.fields" @submit="loginForm.submit">
+    <FormKit
+        type="form"
+        errorBag="login"
+        v-model="loginForm.fields"
+        @submit="loginForm.submit">
         <FormKitField type="email" name="email" />
         <FormKitField type="password" name="password" />
     </FormKit>
-
 </template>
 ```
 
@@ -101,4 +79,5 @@ field.
 
 ## License
 
-This plugin is open-sourced software licensed under the [MIT license](LICENSE.md).
+This plugin is open-sourced software licensed under the
+[MIT license](LICENSE.md).
