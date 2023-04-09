@@ -1,7 +1,7 @@
 {
   "name": "@hedger/formkit-plugin-hybridly",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "packageManager": "pnpm@8.1.1",
   "description": "FormKit plugin for Hybridly.",
   "author": {
