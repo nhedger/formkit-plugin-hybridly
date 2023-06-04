@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@formkit/core':
-    specifier: ^0.16.4
-    version: 0.16.4
+    specifier: ^0.17.2
+    version: 0.17.2
   '@hedger/prettier-config':
     specifier: ^1.2.0
     version: 1.2.0
@@ -11,8 +11,8 @@ devDependencies:
     specifier: ^18.15.11
     version: 18.15.11
   hybridly:
-    specifier: ^0.2.1
-    version: 0.2.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47)
+    specifier: ^0.3.1
+    version: 0.3.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47)
   pnpm:
     specifier: ^8.1.1
     version: 8.1.1
@@ -456,51 +456,51 @@ packages:
     dev: true
     optional: true
 
-  /@formkit/core@0.16.4:
-    resolution: {integrity: sha512-SJGadBfRx3L8VxbgIxV1tiDk8u8eisG1vaKUkFWxBRBfiDGYD25CVKz/k6JrxiPsxz96DgeycnRYSzLvZEeORQ==}
+  /@formkit/core@0.17.2:
+    resolution: {integrity: sha512-aP4kbrtjd/07CDbxRIwFyEim+J/kBzBqfbf83+nPY3vcoymI5whNuZOvuYAFaY72QcQX+7Ozbeaf9IVIzCp0TQ==}
     dependencies:
-      '@formkit/utils': 0.16.4
+      '@formkit/utils': 0.17.2
     dev: true
 
-  /@formkit/utils@0.16.4:
-    resolution: {integrity: sha512-H36dF9r9oMUH719xn2pxMhV83YRmmZpxCYFz9tLDQWzFiqpOAZXDLjIRhG4w0s7/cy4eF+FgJp8EyGF1SFFJ5g==}
+  /@formkit/utils@0.17.2:
+    resolution: {integrity: sha512-vLMPg4R0I4cpznFD1agm76S3dIzY6s8frAZADCtUsSLv8PHDRL/+F2ummClRqfjWeICK8qHFE/GFTRANQd4NOw==}
     dev: true
 
   /@hedger/prettier-config@1.2.0:
     resolution: {integrity: sha512-7P/emAIlilnN11j33pgktm+PBrCwVn3AQe6DxCYiojCXoBc5+G+pThleylDKDu2utLXfsboPOmGp/5uIzLzPcg==}
     dev: true
 
-  /@hybridly/config@0.2.1:
-    resolution: {integrity: sha512-WUmVS+rtdWS10A8B895Ji0dp6G6Mf5F5qKzIG/87yErWfmxRU1LmZ44E8Tdo5YLBtl4CjuwRZVHWEEz0l00wbQ==}
+  /@hybridly/config@0.3.1:
+    resolution: {integrity: sha512-aJqLXE0nmZ1U0lyc8SC1hH+rRJNNCdoH+DlE86HtlhwiFIDamvZP97IcnSw4C0sYF1KXpFEIOwuRGTidNVPgrA==}
     dependencies:
       unconfig: 0.3.7
     dev: true
 
-  /@hybridly/core@0.2.1(axios@1.3.5):
-    resolution: {integrity: sha512-7q84A0Ue4c7PhhpJeBAWVxLsQAHjtNW/O3jtaiAYW34I6/wnKcYDWcXXZrm4V2cnU4UfZuvYbx3uJejHioWnpw==}
+  /@hybridly/core@0.3.1(axios@1.3.5):
+    resolution: {integrity: sha512-FahjxVvPKJHwtubufUlMi5CkPpOb4RRfrz232xmZANeCvBjabRgWMmZoR8igPZrWjD7bBFUIaEAUVuFteluEQA==}
     peerDependencies:
       axios: ^1
     dependencies:
-      '@hybridly/utils': 0.2.1
+      '@hybridly/utils': 0.3.1
       axios: 1.3.5
       qs: 6.11.1
-      superjson: 1.12.2
+      superjson: 1.12.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@hybridly/progress-plugin@0.2.1(axios@1.3.5):
-    resolution: {integrity: sha512-QmS0IhTGy7lyUI6Png8LtSSBDAyR/CbLgtZcd6zGfBnezXDtNTKf/3xcsIazQkieuRyyk9YvgAgE2Bzpzcqpkg==}
+  /@hybridly/progress-plugin@0.3.1(axios@1.3.5):
+    resolution: {integrity: sha512-njdWvAXNSd9tOqqCtYRoy3tr3gfq3n4wieW82MblYcXc8mjnrfhDLtSgocwZHQTS80k6LogRk7QEiilnJvLfww==}
     dependencies:
-      '@hybridly/core': 0.2.1(axios@1.3.5)
+      '@hybridly/core': 0.3.1(axios@1.3.5)
       nprogress: 0.2.0
     transitivePeerDependencies:
       - axios
       - supports-color
     dev: true
 
-  /@hybridly/utils@0.2.1:
-    resolution: {integrity: sha512-IvxoPelvbMff7nKR1CzpThNQZ9t1cqyLf1aYnCiEd/fCwBcDwk4Q5aYsr4BivEuDKNERjxujPeQgwKJ1xsWhQQ==}
+  /@hybridly/utils@0.3.1:
+    resolution: {integrity: sha512-ITvpdZ4D24lFU4Rjb9U0/4BtGX8y4xinT5vvFbs4kZrOWCdqkUe/ScdYW5ZtUG2DCUMYqR0P9w4H5M/pVZnGLQ==}
     dependencies:
       debug: 4.3.4
       deepmerge: 4.3.1
@@ -510,18 +510,18 @@ packages:
       - supports-color
     dev: true
 
-  /@hybridly/vite@0.2.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47):
-    resolution: {integrity: sha512-cenE7zOqxn44DNNQ2aHbqtIz0KZdSbPeXPwZ7qEoHHovK0WQj5KZLgBcvanVC8H++DF9NVXkTHhEl25h9V4geA==}
+  /@hybridly/vite@0.3.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47):
+    resolution: {integrity: sha512-+TgPMPdkTDqcqcz0MKIuWzsYku+w1lg/6kgnUfYuhzL2qPDSPBNh0YTUEBfMLUf/WaF7mnPsrhxJFUWz8ahaeg==}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
-      '@hybridly/core': 0.2.1(axios@1.3.5)
-      '@vitejs/plugin-vue': 4.1.0(vite@4.2.1)(vue@3.2.47)
+      '@hybridly/core': 0.3.1(axios@1.3.5)
+      '@vitejs/plugin-vue': 4.2.3(vite@4.2.1)(vue@3.2.47)
       fast-glob: 3.2.12
       laravel-vite-plugin: 0.7.4(vite@4.2.1)
       local-pkg: 0.4.3
       throttle-debounce: 5.0.0
-      unplugin-auto-import: 0.15.2(rollup@3.20.2)
+      unplugin-auto-import: 0.15.3(rollup@3.20.2)
       unplugin-icons: 0.16.1
       unplugin-vue-components: 0.24.1(rollup@3.20.2)(vue@3.2.47)
       vite-plugin-run: 0.4.1
@@ -540,16 +540,16 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@hybridly/vue@0.2.1(axios@1.3.5)(vue@3.2.47):
-    resolution: {integrity: sha512-6f1XfJaKTwpR1n4zod8YnilQ2ELzFZTNXwRXcLGhCdZux5I8vq0o2WHzgffBz+AeNq48m6RPTr2PXpzPMOYvUw==}
+  /@hybridly/vue@0.3.1(axios@1.3.5)(vue@3.2.47):
+    resolution: {integrity: sha512-O9C14GvId0nb4PeB2GvklUqyFPap9wZTMAbIq5Y+UFTntyJbwqXqxpmLzUT1TRoMVb9LJcAy8zNDnVzjGWpvgw==}
     peerDependencies:
       vue: ^3.2.45
     dependencies:
       '@clickbar/dot-diver': 1.0.1
-      '@hybridly/config': 0.2.1
-      '@hybridly/core': 0.2.1(axios@1.3.5)
-      '@hybridly/progress-plugin': 0.2.1(axios@1.3.5)
-      '@hybridly/utils': 0.2.1
+      '@hybridly/config': 0.3.1
+      '@hybridly/core': 0.3.1(axios@1.3.5)
+      '@hybridly/progress-plugin': 0.3.1(axios@1.3.5)
+      '@hybridly/utils': 0.3.1
       '@vue/devtools-api': 6.5.0
       defu: 6.1.2
       lodash.isequal: 4.5.0
@@ -746,8 +746,8 @@ packages:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
-  /@vitejs/plugin-vue@4.1.0(vite@4.2.1)(vue@3.2.47):
-    resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
+  /@vitejs/plugin-vue@4.2.3(vite@4.2.1)(vue@3.2.47):
+    resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
@@ -1379,14 +1379,14 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hybridly@0.2.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47):
-    resolution: {integrity: sha512-EyiqV2T/l8oksrrJJegVgFFO81iR0fYn8jEjdiWuiTV0l+9dYpmKgZgdOZprkEn5RUv/Gy6i3yvw9Fn/2qAoOw==}
+  /hybridly@0.3.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47):
+    resolution: {integrity: sha512-R2WSi+g6XUSO7j3MVqHpJ6vuXPuFDq+HqZoW9km551SVzgisvgiUIdBUNLiy6K2yvPAVx1IlW7f9YoAUEPnpjQ==}
     dependencies:
-      '@hybridly/config': 0.2.1
-      '@hybridly/core': 0.2.1(axios@1.3.5)
-      '@hybridly/progress-plugin': 0.2.1(axios@1.3.5)
-      '@hybridly/vite': 0.2.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47)
-      '@hybridly/vue': 0.2.1(axios@1.3.5)(vue@3.2.47)
+      '@hybridly/config': 0.3.1
+      '@hybridly/core': 0.3.1(axios@1.3.5)
+      '@hybridly/progress-plugin': 0.3.1(axios@1.3.5)
+      '@hybridly/vite': 0.3.1(axios@1.3.5)(rollup@3.20.2)(vite@4.2.1)(vue@3.2.47)
+      '@hybridly/vue': 0.3.1(axios@1.3.5)(vue@3.2.47)
     transitivePeerDependencies:
       - '@babel/parser'
       - '@nuxt/kit'
@@ -1639,6 +1639,13 @@ packages:
 
   /minimatch@8.0.3:
     resolution: {integrity: sha512-tEEvU9TkZgnFDCtpnrEYnPsjT7iUx42aXfs4bzmQ5sMA09/6hZY0jeZcGkXyDagiBOvkUjNo8Viom+Me6+2x7g==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: true
+
+  /minimatch@9.0.1:
+    resolution: {integrity: sha512-0jWhJpD/MdhPXwPuiRkCbfYfSKp2qnn2eOc279qI7f+osl/l+prKSrvhg157zSYvx/1nmgn2NqdT6k2Z7zSH9w==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       brace-expansion: 2.0.1
@@ -1996,8 +2003,8 @@ packages:
       acorn: 8.8.2
     dev: true
 
-  /superjson@1.12.2:
-    resolution: {integrity: sha512-ugvUo9/WmvWOjstornQhsN/sR9mnGtWGYeTxFuqLb4AiT4QdUavjGFRALCPKWWnAiUJ4HTpytj5e0t5HoMRkXg==}
+  /superjson@1.12.3:
+    resolution: {integrity: sha512-0j+U70KUtP8+roVPbwfqkyQI7lBt7ETnuA7KXbTDX3mCKiD/4fXs2ldKSMdt0MCfpTwiMxo20yFU3vu6ewETpQ==}
     engines: {node: '>=10'}
     dependencies:
       copy-anything: 3.0.3
@@ -2126,8 +2133,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-auto-import@0.15.2(rollup@3.20.2):
-    resolution: {integrity: sha512-Wivfu+xccgvEZG8QtZcIvt6napfX9wyOFqM//7FHOtev8+k+dp3ykiqsEl6TODgHmqTTBeQX4Ah1JvRgUNjlkg==}
+  /unplugin-auto-import@0.15.3(rollup@3.20.2):
+    resolution: {integrity: sha512-RLT8SqbPn4bT7yBshZId0uPSofKWnwr66RyDaxWaFb/+f7OTDOWAsVNz+hOQLBWSjvbekr2xZY9ccS8TDHJbCQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -2142,7 +2149,7 @@ packages:
       '@rollup/pluginutils': 5.0.2(rollup@3.20.2)
       local-pkg: 0.4.3
       magic-string: 0.30.0
-      minimatch: 7.4.5
+      minimatch: 9.0.1
       unimport: 3.0.6(rollup@3.20.2)
       unplugin: 1.3.1
     transitivePeerDependencies:

@@ -49,10 +49,10 @@
     "dev": "unbuild --stub"
   },
   "devDependencies": {
-    "@formkit/core": "^0.16.4",
+    "@formkit/core": "^0.17.2",
     "@hedger/prettier-config": "^1.2.0",
     "@types/node": "^18.15.11",
-    "hybridly": "^0.2.1",
+    "hybridly": "^0.3.1",
     "pnpm": "^8.1.1",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4",
