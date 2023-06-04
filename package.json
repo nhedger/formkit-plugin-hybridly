@@ -60,7 +60,7 @@
     "vitest": "^0.29.8"
   },
   "peerDependencies": {
-    "@formkit/core": "^0.16.4",
-    "hybridly": "^0.2.1"
+    "@formkit/core": "^0.17.2",
+    "hybridly": "^0.3.1"
   }
 }
