@@ -1,0 +1,14 @@
+{
+	"files": {
+		"ignore": ["dist", "node_modules", "CHANGELOG.md", "LICENSE.md"]
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
+}

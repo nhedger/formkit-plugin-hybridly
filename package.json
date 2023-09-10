@@ -46,15 +46,16 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "format": "biome format . --write",
+    "lint": "biome lint .",
     "dev": "unbuild --stub"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
     "@formkit/core": "^0.17.2",
-    "@hedger/prettier-config": "^1.2.0",
     "@types/node": "^18.15.11",
     "hybridly": "^0.3.1",
     "pnpm": "^8.1.1",
-    "prettier": "^2.8.7",
     "typescript": "^5.0.4",
     "unbuild": "^1.2.0",
     "vitest": "^0.29.8"
