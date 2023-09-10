@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/nhedger/formkit-plugin-hybridly/compare/v0.1.0-alpha.2...v0.1.0) (2023-09-10)
+
+
+### Miscellaneous Chores
+
+* bump deps ([eb37e76](https://github.com/nhedger/formkit-plugin-hybridly/commit/eb37e7690826a58bebdeb1de7e2da76a6634c965))
+
 ## [0.1.0-alpha.2](https://github.com/nhedger/formkit-plugin-hybridly/compare/v0.1.0-alpha.1...v0.1.0-alpha.2) (2023-06-04)
 
 
