@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/nhedger/formkit-plugin-hybridly/compare/v0.1.0...v0.2.0) (2023-10-30)
+
+
+### Features
+
+* add explicit support for hybridly 0.5.x ([428f570](https://github.com/nhedger/formkit-plugin-hybridly/commit/428f570d133df2bd4a34e9e03c95a7fbc27b865c))
+
 ## [0.1.0](https://github.com/nhedger/formkit-plugin-hybridly/compare/v0.1.0-alpha.2...v0.1.0) (2023-09-10)
 
 
