@@ -62,6 +62,6 @@
   },
   "peerDependencies": {
     "@formkit/core": "^1.0",
-    "hybridly": "^0.4"
+    "hybridly": "^0.4 || ^0.5"
   }
 }
